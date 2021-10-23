@@ -1,0 +1,1 @@
+docker run --name portfolio-optimizer -p 8080:8080 -v /home/cj/Documents/Projects/data_science_center/stock_portfolio_optimizer/src:/usr/app -d  portfolio-optimizer

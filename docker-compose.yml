@@ -1,0 +1,12 @@
+version: '3'
+services:
+    portfolio-optimizer:
+      container_name: portfolio-optimizer
+      build:
+        context: .
+        dockerfile: Dockerfile
+      ports:
+        - "3456:3456"
+      volumes:
+        - /home/cj/Documents/Projects/data_science_center/stock_portfolio_optimizer/src:/usr/app
+  

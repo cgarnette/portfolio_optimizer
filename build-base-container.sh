@@ -1,0 +1,1 @@
+docker build -t python-box -f python-box.Dockerfile .
