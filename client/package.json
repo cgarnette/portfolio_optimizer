@@ -1,0 +1,37 @@
+{
+  "name": "portfolio-optimizer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@nivo/bar": "^0.67.0",
+    "@nivo/core": "^0.67.0",
+    "@nivo/line": "^0.67.0",
+    "@nivo/pie": "^0.67.0",
+    "axios": "^0.21.1",
+    "dotenv": "^6.2.0",
+    "lodash": "^4.17.11",
+    "material-ui": "^0.20.2",
+    "nivo": "^0.31.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.2",
+    "semantic-ui-react": "^2.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

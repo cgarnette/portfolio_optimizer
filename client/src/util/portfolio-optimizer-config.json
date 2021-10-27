@@ -1,0 +1,143 @@
+{
+    "payload": {
+        "sectorLower": {
+            "EV": ".2",
+            "Health": ".15"
+        },
+        "sectorUpper": {
+            "EV": ".5"
+        },
+        "sectorMapper": {
+            "TSLA": "EV",
+            "AAPL": "Tech",
+            "NIO": "EV",
+            "GME": "Misc",
+            "AMC": "Misc",
+            "MSFT": "Tech",
+            "ARKK": "Tech",
+            "ARKG": "Health"
+        },
+        "tickers": ["TSLA", "AAPL", "NIO", "GME", "AMC", "MSFT", "ARKK", "ARKG"],
+        "marketTracker": "SPY",
+        "gamma": 0.6,
+        "defaultIndicies": [{
+            "ticker": "TSLA",
+            "condition": "less",
+            "weight": ".3"
+        }, {
+            "ticker": "NIO",
+            "condition": "less",
+            "weight": ".3"
+        }, {
+            "ticker": "GME",
+            "condition": "less",
+            "weight": ".01"
+        }, {
+            "ticker": "AMC",
+            "condition": "less",
+            "weight": ".01"
+        }],
+        "portfolioAmount": "200"
+    },
+    "originalConfig": {
+        "tickers": [{
+            "name": "TSLA",
+            "condition": "<",
+            "bounds": {
+                "upper": ".3",
+                "lower": ""
+            }
+        }, {
+            "name": "AAPL",
+            "condition": "",
+            "bounds": {
+                "upper": "",
+                "lower": ""
+            }
+        }, {
+            "name": "NIO",
+            "condition": "<",
+            "bounds": {
+                "upper": ".3",
+                "lower": ""
+            }
+        }, {
+            "name": "GME",
+            "condition": "<",
+            "bounds": {
+                "upper": ".01",
+                "lower": ""
+            }
+        }, {
+            "name": "AMC",
+            "condition": "<",
+            "bounds": {
+                "upper": ".01",
+                "lower": ""
+            }
+        }, {
+            "name": "MSFT",
+            "condition": "",
+            "bounds": {
+                "upper": "",
+                "lower": ""
+            }
+        }, {
+            "name": "ARKK",
+            "condition": "",
+            "bounds": {
+                "upper": "",
+                "lower": ""
+            }
+        }, {
+            "name": "ARKG",
+            "condition": "",
+            "bounds": {
+                "upper": "",
+                "lower": ""
+            }
+        }],
+        "mappings": {
+            "TSLA": "EV",
+            "AAPL": "Tech",
+            "NIO": "EV",
+            "GME": "Misc",
+            "AMC": "Misc",
+            "MSFT": "Tech",
+            "ARKK": "Tech",
+            "ARKG": "Health"
+        },
+        "marketTracker": "SPY",
+        "gamme": 60,
+        "sectors": [{
+            "name": "Tech",
+            "condition": "",
+            "bounds": {
+                "upper": "",
+                "lower": ""
+            }
+        }, {
+            "name": "EV",
+            "condition": "<>",
+            "bounds": {
+                "upper": ".5",
+                "lower": ".2"
+            }
+        }, {
+            "name": "Health",
+            "condition": ">",
+            "bounds": {
+                "upper": "",
+                "lower": ".15"
+            }
+        }, {
+            "name": "Misc",
+            "condition": "",
+            "bounds": {
+                "upper": "",
+                "lower": ""
+            }
+        }],
+        "portfolioAmount": "1200"
+    }
+}
