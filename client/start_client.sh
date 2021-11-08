@@ -1,0 +1,1 @@
+docker run -d --name portfolio_optimizer_client -v /Users/charlesgarnette/Documents/Projects/portfolio_optimizer/client/src:/usr/app/src -p 3000:3000 portfolio_optimizer_client
