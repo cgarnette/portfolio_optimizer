@@ -1,0 +1,1 @@
+docker run --name portfolio-optimizer -p 8080:8080 -v /Users/charlesgarnette/Documents/Projects/portfolio_optimizer/server/src:/usr/app -d  portfolio-optimizer

@@ -8,5 +8,5 @@ services:
       ports:
         - "3456:3456"
       volumes:
-        - /home/cj/Documents/Projects/data_science_center/stock_portfolio_optimizer/src:/usr/app
+        - /Users/charlesgarnette/Documents/Projects/portfolio_optimizer/server/src:/usr/app
   
